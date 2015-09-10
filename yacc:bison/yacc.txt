@@ -1,0 +1,4 @@
+lex [lexerfile.l]
+yacc -d [yaccfile.y]
+cc lex.yy.c y.tab.c [all other .c files] -o [filename desired]
+./[filename desired] < [testfile]

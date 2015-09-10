@@ -1,0 +1,3 @@
+OpenGL
+
+g++ -Wall -L /System/Library/Frameworks -framework GLUT -framework OpenGL [files.cpp] -o [desired app filename]
